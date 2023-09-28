@@ -1,11 +1,15 @@
 /* Lazy Load Styles */
 .card-image {
   display: block;
-  min-height: 20rem; /* layout hack */
+  min-height: 10rem; /* layout hack */
+  height: 23rem;
   background: #fff center center no-repeat;
   background-size: cover;
   filter: blur(3px); /* blur the lowres image */
 }
+
+
+
 
 .card-image > img {
   display: block;
