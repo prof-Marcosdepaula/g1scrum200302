@@ -30,4 +30,17 @@ window.addEventListener('load', function() {
       
     });
     
+  const cards = document.querySelectorAll('.card');
+  let maxHeight = 0;
+
+  cards.forEach(card => {
+    const cardHeight = card.clientHeight;
+    if (cardHeight > maxHeight) {
+    maxHeight = cardHeight;
+  }
+});
+
+cards.forEach(card => {
+  card.style.height = `${maxHeight}px`;
+});
   }
