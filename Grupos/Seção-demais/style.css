@@ -6,6 +6,7 @@
   background: #fff center center no-repeat;
   background-size: cover;
   filter: blur(3px); /* blur the lowres image */
+  
 }
 
 
@@ -69,6 +70,7 @@ html, body {
   transition: transform 0.1s ease-in-out, box-shadow 0.1s;
   border-radius: 25px;
   position: relative;
+  background-color: #0253c9;
 }
 
 
@@ -80,7 +82,7 @@ html, body {
 .card-description {
   display: block;
   padding: 1em 0.5em;
-  color: #515151;
+  color: #000000;
   text-decoration: none;
 }
 
