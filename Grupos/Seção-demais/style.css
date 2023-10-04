@@ -32,8 +32,9 @@ html, body {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 .card-list {
   display: block;
@@ -59,7 +60,7 @@ html, body {
 }*/
 
 
-.card {
+.card-demais {
   display: inline-table;
   width: calc(25% - 2rem); /* 25% para 4 cards por linha e 2rem de margem à direita */
   margin: 1rem;
@@ -74,23 +75,23 @@ html, body {
 }
 
 
-.card:hover {
+.card-demais:hover {
   transform: translateY(-0.5rem) scale(1.0125);
   box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
 }
 
-.card-description {
+.card-description-demais {
   display: block;
   padding: 1em 0.5em;
   color: #000000;
   text-decoration: none;
 }
 
-.card-description > h2 {
+.card-description-demais > h2 {
   margin: 0 0 0.5em;
 }
 
-.card-description > p {
+.card-description-demais > p {
   margin: 0;
 }
 
