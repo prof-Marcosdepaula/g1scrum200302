@@ -1,3 +1,5 @@
+// Inicio JS Seção Destaque
+
 // This is "probably" IE9 compatible but will need some fallbacks for IE8
 // - (event listeners, forEach loop)
 
@@ -44,3 +46,5 @@ cards.forEach(card => {
   card.style.height = `${maxHeight}px`;
 });
   }
+
+  // Fim JS Seção Destaque
