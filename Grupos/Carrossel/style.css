@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Verdana, sans-serif;
+    font-family: MontSerrat, sans-serif;
 }
 
 .mySlides {
@@ -16,7 +16,8 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: auto;
+    max-width: 1100px;
+    
     position: relative;
     margin: auto;
 }
@@ -41,16 +42,16 @@ img {
     top: 0;
 }*/
 
-/* The dots/bullets/indicators 
+/* The dots/bullets/indicators*/ 
 .dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #0a0a0a;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-}*/
+}
 
 .active {
     background-color: #717171;
@@ -79,15 +80,15 @@ img {
     }
 }
 
-/* Next & previous buttons */
+ /*Next & previous buttons*/ 
 .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: auto;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: rgb(2, 2, 2);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
