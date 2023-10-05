@@ -15,8 +15,22 @@
     padding: 0;
     box-sizing: border-box;
   }
+<<<<<<< HEAD
 
  
+=======
+  
+  html{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  body{
+    height: 100%;
+  }
+  
+>>>>>>> 0becf8f6ab9c7feab920729b48ce7d532325fcce
   .section_destaque{
     align-items: center;
     /*background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
@@ -115,6 +129,7 @@
    /* font-family: 'Bebas Neue', sans-serif;*/
     
 }
+<<<<<<< HEAD
 
 /*seção-destaque acima*/ 
 
@@ -285,3 +300,5 @@
   }
   
   
+=======
+>>>>>>> 0becf8f6ab9c7feab920729b48ce7d532325fcce
