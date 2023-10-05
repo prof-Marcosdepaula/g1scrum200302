@@ -30,7 +30,7 @@ window.addEventListener('load', function() {
       
     });
     
-  const cards = document.querySelectorAll('.card');
+  const cards = document.querySelectorAll('.card-demais');
   let maxHeight = 0;
 
   cards.forEach(card => {
