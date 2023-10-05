@@ -67,7 +67,7 @@ nav.menu {
 .menu > ul > li {
 	list-style: none;
 	display: inline-block;
-	color: #fff;
+	color: #030303;
 	line-height: 45px;
 	
 }
@@ -120,11 +120,11 @@ text-decoration:none;
 }
 
 .mega-menu {
-   background: none repeat scroll 0 0 #888;
+   background: none repeat scroll 0 0 #f9b03a85;
     left: 0;
     margin-top: 3px;
     position: absolute;
-    width: 100%;
+    width: 300px;
 	padding:15px;
 	display:none;
 	 transition-duration: 0.9s;
@@ -190,8 +190,8 @@ margin-right:25px;
     text-transform: uppercase;
 }
 .mm-view-more{
-	background: none repeat scroll 0 0 #ff7f50;
-    color: #fff;
+	background: none repeat scroll 0 0 #f7931e;
+    color: #000000;
     display: inline !important;
     line-height: normal;
     padding: 5px 8px !important;
@@ -203,7 +203,7 @@ display:block;
 }
 .drop-down > a:after{
 content:"\f103";
-color:#fff;
+color:#050505;
 font-family: FontAwesome;
 font-style: normal;
 margin-left: 5px;
