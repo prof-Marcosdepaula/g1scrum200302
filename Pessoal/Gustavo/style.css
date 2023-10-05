@@ -1,6 +1,6 @@
 :root{
     --background-dark: #2d3548;
-    --text-light: rgba(255,255,255,0.6);
+    --text-light: rgba(255, 255, 255, 0.904);
     --text-lighter: rgba(255,255,255,0.9);
     --spacing-s: 8px;
     --spacing-m: 16px;
@@ -11,22 +11,12 @@
   }
   
   *{
-    border: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
- /* html{
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-  }
-  
-  body{
-    height: 100%;
-  }*/
-  
+
+ 
   .section_destaque{
     align-items: center;
     /*background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
@@ -173,6 +163,9 @@
     font-size: 0;
     text-align: center;
     list-style: none;
+    background-image: url("./img/fundo-destaque\ -\ areia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /*.card {
@@ -201,7 +194,7 @@
     transition: transform 0.1s ease-in-out, box-shadow 0.1s;
     border-radius: 25px;
     position: relative;
-    background-color: #0253c9;
+    background-color: transparent;
   }
   
   
@@ -216,6 +209,7 @@
     color: #000000;
     text-decoration: none; 
     font-size: 15px;
+    font-weight: 500;
   }
   
   .card-description-demais > h2 {
