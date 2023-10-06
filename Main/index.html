@@ -10,8 +10,7 @@
     <link rel="icon" type="image/x-icon" href="/Main/imagens/logo_png.png">
 </head>
 
-<body
-    style="background-image: url(../Grupos/Menu-home-page/imagens/logotipo_certo.png); background-repeat: no-repeat;   background-attachment: fixed; background-size: cover;">
+<body>
 
     <!--Google -Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel='stylesheet'
@@ -95,19 +94,275 @@
 
             </ul>
         </nav>
+        <img src="./imagens/logotipo_certo_resized.png" alt=""
+            style="background-repeat: no-repeat;   background-size: cover; width: 1450px; ">
     </div>
     <!-- Fim Menu e Banner-->
 
 
-    
-    <!-- Inicio Carousel-->
 
+    <!-- Inicio Carousel-->
+    <div class="containerCarousel" style=" background-image: url(./imagens/fundo-destaque\ -\ areia.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="slideshow-container" >
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./imagens/recife carousel.png" width="1100px" height="600px">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="imagens/recife carousel.png" width="1100px" height="600px">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="imagens/recife carousel.png" width="1100px" height="600px">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
     <!-- Fim Carousel-->
+
+    <!-- Inicio Seção Destaque-->
+    <section class="section_destaque">
+        <div class="card_grid">
+            <a class="card" href="javascript:void(0); ">
+                <div class="card_fundo" style="background-image: url(./imagens/lancha-destaque.jpg)">
+                </div>
+                <div class="card_conteudo">
+                    <p class="card_categoria">Marítimas em Destaque</p>
+                    <h3 class="card_titulo">Passeio de Lancha</h3>
+                </div>
+            </a>
+            <a class="card" href="./img/corais3.jpeg">
+                <div class="card_fundo" style="background-image: url(./imagens/corais-destaque.png)">
+                </div>
+                <div class="card_conteudo">
+                    <p class="card_categoria">Exploração Subaquática</p>
+                    <h3 class="card_titulo">Imersão em Corais</h3>
+                </div>
+            </a>
+            <a class="card" href="#">
+                <div class="card_fundo" style="background-image: url(./imagens/culinária-destaque.jpg)">
+                </div>
+                <div class="card_conteudo">
+                    <p class="card_categoria">Sabores Exclusivos</p>
+                    <h3 class="card_titulo">Culinária Premium</h3>
+                </div>
+                </li>
+                <a class="card" href="#">
+                    <div class="card_fundo" style="background-image: url(./imagens/chalés-destaque.jpg)">
+                    </div>
+                    <div class="card_conteudo">
+                        <p class="card_categoria">Sinta a Natureza</p>
+                        <h3 class="card_titulo">Chalés à Beira-Mar</h3>
+                    </div>
+                </a>
+                <div>
+    </section>
+    <!-- Fim Seção Destaque-->
+
+    <!-- Inicio Seção Demais-->
+    <ul class="card-list">
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/basico.jpg);"
+                data-image-full="./imagens/basico.jpg">
+                <img src="./imagens/basico.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                <h2>Pacote Básico</h2>
+                <p>
+                    Passeio de Lancha<br>
+                    Shows ao Vivo</p>
+                <br><br><br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4>
+                <br>
+                <p>Café da Manhã</p>
+                <br>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/família.jpg);"
+                data-image-full="./imagens/família.jpg">
+                <img src="./imagens/família.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                <h2>Pacote Familia</h2>
+                <p>
+                    Atrações Básico +<br>
+                    <br>
+                    Aulas de Surf<br>
+                    Passeio de Buggy<br>
+                </p>
+                <br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4><br>
+                <p>Café da Manhã<br>
+                    Jantar<br>
+                    Área Kids</p>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/passeio.jpg);"
+                data-image-full="./imagens/passeio.jpg">
+                <img src="./imagens/passeio.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                <h2>Pacote Passeio </h2>
+                <p>
+                    Atrações Básico +<br>
+                    <br>
+                    Passeio de Buggy<br>
+                    Passeio de JetSki<br>
+                </p>
+                <br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4>
+                <br>
+                <p>Café da Manhã<br>
+                    Jantar<br>
+                    SPA</p>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/premium.jpg);"
+                data-image-full="./imagens/premium.jpg">
+                <img src="./imagens/premium.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                <h2>Pacote Premium</h2>
+                <p>
+                    Atrações Passeio +<br>
+                    <br>
+                    Aulas de Surf<br>
+                    Mergulho em Corais
+                </p>
+                <br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4>
+                <br>
+                <p>Pacote Completo<br>
+                </p>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/caiaque.jpg);" data-image-full="./imagens/caiaque.jpg">
+                <img src="./imagens/caiaque.jpg" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2">
+                <br><br><br><br><br>
+                <h2>Paisagens Incríveis</h2>
+                <br>
+                <h4>Descubra Novas Rotas</h4>
+
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/jogos.jpg);" data-image-full="./imagens/jogos.jpg">
+                <img src="./imagens/jogos.jpg" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2">
+                <br><br><br><br><br>
+                <h2>Momentos de Lazer</h2>
+                <br>
+                <h4>Desafios na Areia</h4>
+
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/corais4.jpg);" data-image-full="./imagens/corais4.jpg">
+                <img src="./imagens/corais4.jpg" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2">
+                <br><br><br><br><br>
+                <h2>Aventura Subaquática</h2>
+                <br>
+                <h4>Encantos do Mar</h4>
+
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/culinaria2.png);" data-image-full="./imagens/culinaria2.png">
+                <img src="./imagens/culinaria2.png" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2">
+                <br><br><br><br><br>
+                <h2>Seleção Gastronômica</h2>
+                <br>
+                <h4>Prazeres da Gastronomia</h4>
+
+            </a>
+        </li>
+
+        <!-- Site footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>Sobre</h6>
+                        <p class="text-justify">Site desenvolvido para projeto academico</p>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2023 Todos os direitos reservados
+                            <a href="#">Grupo-1</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </ul>
+    <!-- Fim Seção Demais-->
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./main.js"></script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+        showSlidesAuto();
+    </script>
 
 </body>
 
