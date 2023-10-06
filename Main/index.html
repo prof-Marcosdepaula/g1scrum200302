@@ -67,11 +67,11 @@
                             <span class="categories-list">
                                 <ul>
                                     <span></span>
-                                    <li>Básico</li>
-                                    <li>Familía</li>
-                                    <li>Passeio</li>
-                                    <li>Premium</li>
-                                    <li><a class="mm-view-more" href="#">View more →</a></li>
+                                    <li style="cursor: pointer;">Básico</li>
+                                    <li style="cursor: pointer;">Familía</li>
+                                    <li style="cursor: pointer;">Passeio</li>
+                                    <li style="cursor: pointer;">Premium</li>
+                                    <li style="cursor: pointer;"><a class="mm-view-more" href="#">View more →</a></li>
                                 </ul>
                             </span>
                 <li>
@@ -94,33 +94,38 @@
 
             </ul>
         </nav>
-        <img src="./imagens/logotipo_certo_resized.png" alt=""
-            style="background-repeat: no-repeat;   background-size: cover; width: 1450px; ">
+        <img src="./imagens/logotipo_certo.png" alt=""
+            style="background-repeat: no-repeat;   background-size: cover; width: 100%; ">
     </div>
     <!-- Fim Menu e Banner-->
 
 
 
     <!-- Inicio Carousel-->
-    <div class="containerCarousel" style=" background-image: url(./imagens/fundo-destaque\ -\ areia.jpg); background-repeat: no-repeat; background-size: cover;">
+    <div class="containerCarousel" style=" background-image: url(./imagens/fundoCarousel.jpg); background-repeat: no-repeat; background-size: cover;">
         <div class="slideshow-container" >
 
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="./imagens/recife carousel.png" width="1100px" height="600px">
-                <div class="text">Caption Text</div>
+                <img src="./imagens/carouselLogo.png" width="1100px" height="600px">
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="imagens/recife carousel.png" width="1100px" height="600px">
-                <div class="text">Caption Two</div>
+                <img src="./imagens/recifeCarousel.png" width="1100px" height="600px">
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="imagens/recife carousel.png" width="1100px" height="600px">
-                <div class="text">Caption Three</div>
+                <img src="./imagens/aulasSurf.png" width="1100px" height="600px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./imagens/passeioBuggy.png" width="1100px" height="600px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./imagens/shows.png" width="1100px" height="600px">
             </div>
 
             <!-- Next and previous buttons -->
@@ -135,6 +140,8 @@
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
     </div>
 
     <!-- Fim Carousel-->
@@ -182,12 +189,12 @@
     <ul class="card-list">
 
         <li class="card-demais">
-            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/basico.jpg);"
-                data-image-full="./imagens/basico.jpg">
-                <img src="./imagens/basico.jpg" alt="#" />
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/pacoteBasico.jpg);"
+                data-image-full="./imagens/pacoteBasico.jpg">
+                <img src="./imagens/pacoteBasico.jpg" alt="#" />
             </a>
             <a class="card-description-demais" href="javascript:void(0);">
-                <h2>Pacote Básico</h2>
+                 <h2>Pacote Básico</h2>
                 <p>
                     Passeio de Lancha<br>
                     Shows ao Vivo</p>
@@ -202,12 +209,12 @@
         </li>
 
         <li class="card-demais">
-            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/família.jpg);"
-                data-image-full="./imagens/família.jpg">
-                <img src="./imagens/família.jpg" alt="#" />
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/pacoteFamilia.jpg);"
+                data-image-full="./imagens/pacoteFamilia.jpg">
+                <img src="./imagens/pacoteFamilia.jpg" alt="#" />
             </a>
             <a class="card-description-demais" href="javascript:void(0);">
-                <h2>Pacote Familia</h2>
+                 <h2>Pacote Familia</h2>
                 <p>
                     Atrações Básico +<br>
                     <br>
@@ -225,12 +232,12 @@
         </li>
 
         <li class="card-demais">
-            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/passeio.jpg);"
-                data-image-full="./imagens/passeio.jpg">
-                <img src="./imagens/passeio.jpg" alt="#" />
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/pacotePasseio.jpg);"
+                data-image-full="./imagens/pacotePasseio.jpg">
+                <img src="./imagens/pacotePasseio.jpg" alt="#" />
             </a>
             <a class="card-description-demais" href="javascript:void(0);">
-                <h2>Pacote Passeio </h2>
+                 <h2>Pacote Passeio </h2>
                 <p>
                     Atrações Básico +<br>
                     <br>
@@ -249,12 +256,12 @@
         </li>
 
         <li class="card-demais">
-            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/premium.jpg);"
-                data-image-full="./imagens/premium.jpg">
-                <img src="./imagens/premium.jpg" alt="#" />
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(./imagens/pacotePremium.jpg);"
+                data-image-full="./imagens/pacotePremium.jpg">
+                <img src="./imagens/pacotePremium.jpg" alt="#" />
             </a>
             <a class="card-description-demais" href="javascript:void(0);">
-                <h2>Pacote Premium</h2>
+                 <h2>Pacote Premium</h2>
                 <p>
                     Atrações Passeio +<br>
                     <br>
@@ -276,8 +283,8 @@
                 style="background-image: url(./imagens/caiaque.jpg);" data-image-full="./imagens/caiaque.jpg">
                 <img src="./imagens/caiaque.jpg" alt="#" id="img2" />
             </a>
-            <a class="card-description-demais" href="javascript:void(0);" id="description2">
-                <br><br><br><br><br>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
                 <h2>Paisagens Incríveis</h2>
                 <br>
                 <h4>Descubra Novas Rotas</h4>
@@ -290,8 +297,8 @@
                 style="background-image: url(./imagens/jogos.jpg);" data-image-full="./imagens/jogos.jpg">
                 <img src="./imagens/jogos.jpg" alt="#" id="img2" />
             </a>
-            <a class="card-description-demais" href="javascript:void(0);" id="description2">
-                <br><br><br><br><br>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
                 <h2>Momentos de Lazer</h2>
                 <br>
                 <h4>Desafios na Areia</h4>
@@ -304,8 +311,8 @@
                 style="background-image: url(./imagens/corais4.jpg);" data-image-full="./imagens/corais4.jpg">
                 <img src="./imagens/corais4.jpg" alt="#" id="img2" />
             </a>
-            <a class="card-description-demais" href="javascript:void(0);" id="description2">
-                <br><br><br><br><br>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
                 <h2>Aventura Subaquática</h2>
                 <br>
                 <h4>Encantos do Mar</h4>
@@ -318,8 +325,8 @@
                 style="background-image: url(./imagens/culinaria2.png);" data-image-full="./imagens/culinaria2.png">
                 <img src="./imagens/culinaria2.png" alt="#" id="img2" />
             </a>
-            <a class="card-description-demais" href="javascript:void(0);" id="description2">
-                <br><br><br><br><br>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
                 <h2>Seleção Gastronômica</h2>
                 <br>
                 <h4>Prazeres da Gastronomia</h4>
