@@ -1,0 +1,75 @@
+.FaleCom{
+  height: 300px;
+}
+
+/* Fim CSS Seção Demais*/
+
+/* Início Seção Fale com um vendedor */
+
+/* Reset padrão de margens e preenchimentos */
+/* body, h1, form {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+background-image: url(./img/fundo-destaque\ -\ areia.jpg);
+}
+
+header {
+background-color: #007bff;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+h1 {
+font-size: 24px;
+}
+
+main {
+background-color: #007bff;
+max-width: 400px;
+margin: 20px auto;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+font-weight: bold;
+margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+textarea {
+resize: vertical;
+}
+
+input[type="submit"] {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #0056b3;
+}*/
