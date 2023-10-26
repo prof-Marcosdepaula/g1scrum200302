@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Resort Ilha Santuário</title>
+    <link rel="icon" type="image/x-icon" href="/Main/imagens/logo_png.png">
+</head>
+
+<body>
+
+    <!--Google -Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel='stylesheet'
+        type='text/css'>
+
+    <!--Font-awsome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Inicio Menu e Banner-->
+    <div class="container">
+
+        <div class="xs-menu-cont">
+            <a id="menutoggle"><i class="fa fa-align-justify"></i> </a>
+            <nav class="xs-menu displaynone">
+                <ul>
+                    <li class="active">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Pacotes</a>
+                    </li>
+                    <li>
+                        <a href="#">Passeios</a>
+                    </li>
+                    <li>
+                        <a href="#">Chalés</a>
+                    </li>
+                    <li>
+                        <a href="#">Shows</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="#">Entre em Contato</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Inicio</a>
+
+                </li>
+                <li class="drop-down">
+                    <a href="#">Pacotes</a>
+
+                    <div class="mega-menu fadeIn animated">
+                        <div class="mm-6column">
+                            <span class="left-images">
+                            </span>
+                            <span class="categories-list">
+                                <ul>
+                                    <span></span>
+                                    <li style="cursor: pointer;">Básico</li>
+                                    <li style="cursor: pointer;">Familía</li>
+                                    <li style="cursor: pointer;">Passeio</li>
+                                    <li style="cursor: pointer;">Premium</li>
+                                    <li style="cursor: pointer;"><a class="mm-view-more" href="#">View more →</a></li>
+                                </ul>
+                            </span>
+                <li>
+                    <a href="#">Passeios</a>
+                </li>
+                <li>
+                    <a href="#">Chalés</a>
+                </li>
+                <li>
+                    <a href="#">Shows</a>
+
+                </li>
+                <li>
+                    <a href="#">Sobre Nós</a>
+
+                </li>
+                <li style="float:right;">
+                    <a href="#">Entre em Contato</a>
+                </li>
+
+            </ul>
+        </nav>
+        <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/logotipo_certo.png" alt=""
+            style="background-repeat: no-repeat;   background-size: cover; width: 100%; ">
+    </div>
+    <!-- Fim Menu e Banner-->
+
+
+
+    <!-- Inicio Carousel-->
+    <div class="containerCarousel" style=" background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/fundoCarousel.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="slideshow-container" >
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/logoCarousel1.png" width="1100px" height="600px">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/recifeCarousel2.png" width="1100px" height="600px">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/aulasSurfCarousel3.png" width="1100px" height="600px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/passeioBuggyCarousel4.png" width="1100px" height="600px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/showsCarousel5.png" width="1100px" height="600px">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <!-- Fim Carousel-->
+
+    <!-- Inicio Seção Destaque-->
+    <section class="section_destaque">
+        <div class="card_grid">
+            <a class="card" href="javascript:void(0); ">
+                <div class="card_fundo" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/lancha-destaque.jpg)">
+                </div>
+                <div class="card_conteudo">
+                    <p class="card_categoria">Marítimas em Destaque</p>
+                    <h3 class="card_titulo">Passeio de Lancha</h3>
+                </div>
+            </a>
+            <a class="card" href="./img/corais3.jpeg">
+                <div class="card_fundo" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/corais-destaque.png)">
+                </div>
+                <div class="card_conteudo">
+                    <p class="card_categoria">Exploração Subaquática</p>
+                    <h3 class="card_titulo">Imersão em Corais</h3>
+                </div>
+            </a>
+            <a class="card" href="#">
+                <div class="card_fundo" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/culin%C3%A1ria-destaque.jpg)">
+                </div>
+                <div class="card_conteudo">
+                    <p class="card_categoria">Sabores Exclusivos</p>
+                    <h3 class="card_titulo">Culinária Premium</h3>
+                </div>
+                </li>
+                <a class="card" href="#">
+                    <div class="card_fundo" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/chal%C3%A9s-destaque.jpg)">
+                    </div>
+                    <div class="card_conteudo">
+                        <p class="card_categoria">Sinta a Natureza</p>
+                        <h3 class="card_titulo">Chalés à Beira-Mar</h3>
+                    </div>
+                </a>
+                <div>
+    </section>
+    <!-- Fim Seção Destaque-->
+
+    <!-- Inicio Seção Demais-->
+    <ul class="card-list">
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacoteBasico.jpg);"
+                data-image-full="./imagens/pacoteBasico.jpg">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacoteBasico.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                 <h2>Pacote Básico</h2>
+                <p>
+                    Passeio de Lancha<br>
+                    Shows ao Vivo</p>
+                <br><br><br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4>
+                <br>
+                <p>Café da Manhã</p>
+                <br>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacoteFamilia.jpg);"
+                data-image-full="./imagens/pacoteFamilia.jpg">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacoteFamilia.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                 <h2>Pacote Familia</h2>
+                <p>
+                    Atrações Básico +<br>
+                    <br>
+                    Aulas de Surf<br>
+                    Passeio de Buggy<br>
+                </p>
+                <br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4><br>
+                <p>Café da Manhã<br>
+                    Jantar<br>
+                    Área Kids</p>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacotePasseio.jpg);"
+                data-image-full="./imagens/pacotePasseio.jpg">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacotePasseio.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                 <h2>Pacote Passeio </h2>
+                <p>
+                    Atrações Básico +<br>
+                    <br>
+                    Passeio de Buggy<br>
+                    Passeio de JetSki<br>
+                </p>
+                <br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4>
+                <br>
+                <p>Café da Manhã<br>
+                    Jantar<br>
+                    SPA</p>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" href="javascript:void(0);" style="background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacotePremium.jpg);"
+                data-image-full="./imagens/pacotePremium.jpg">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/pacotePremium.jpg" alt="#" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);">
+                 <h2>Pacote Premium</h2>
+                <p>
+                    Atrações Passeio +<br>
+                    <br>
+                    Aulas de Surf<br>
+                    Mergulho em Corais
+                </p>
+                <br>
+                <hr color="black">
+                <br>
+                <h4>Incluso</h4>
+                <br>
+                <p>Pacote Completo<br>
+                </p>
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/caiaque.jpg);" data-image-full="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/caiaque.jpg">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/caiaque.jpg" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
+                <h2>Paisagens Incríveis</h2>
+                <br>
+                <h4>Descubra Novas Rotas</h4>
+
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/jogos.jpg);" data-image-full="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/jogos.jpg">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/jogos.jpg" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
+                <h2>Momentos de Lazer</h2>
+                <br>
+                <h4>Desafios na Areia</h4>
+
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/corais4.jpg);" data-image-full="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/corais4.jpg">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/corais4.jpg" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
+                <h2>Aventura Subaquática</h2>
+                <br>
+                <h4>Encantos do Mar</h4>
+
+            </a>
+        </li>
+
+        <li class="card-demais">
+            <a class="card-image" id="image2" href="javascript:void(0);"
+                style="background-image: url(./imagens/culinaria2.png);" data-image-full="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/culinaria2.png">
+                <img src="https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/culinaria2.png" alt="#" id="img2" />
+            </a>
+            <a class="card-description-demais" href="javascript:void(0);" id="description2" >
+                <br><br><br><br><br><br>
+                <h2>Seleção Gastronômica</h2>
+                <br>
+                <h4>Prazeres da Gastronomia</h4>
+
+            </a>
+        </li>
+
+        <div class="contato-vendedor">
+            <header>
+                <h1>Fale com um Vendedor</h1>
+            </header>
+            <main >
+                <form id="form-contato-vendedor">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="tel" name="telefone" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </main>
+            <header>
+                <h1>Fale com um Vendedor</h1>
+            </header>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127386.8364214962!2d-32.509293664755084!3d-3.84479368567954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x635de3fd6310b57%3A0xe1a76e103787589!2sFernando%20de%20Noronha!5e0!3m2!1spt-BR!2sbr!4v1698358598230!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- Site footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>Sobre</h6>
+                        <p class="text-justify">Site desenvolvido para projeto academico</p>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2023 Todos os direitos reservados
+                            <a href="#">Grupo-1</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </ul>
+    <!-- Fim Seção Demais-->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+        showSlidesAuto();
+    </script>
+
+
+</body>
+
+</html>

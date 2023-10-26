@@ -780,7 +780,7 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form {
+.form-contato-vendedor,form {
   display: flex;
   flex-direction: column;
 }
@@ -799,7 +799,7 @@ textarea {
   border-radius: 4px;
 }
 
-textarea {
+|#form-contato-vendedor,textarea {
   resize: vertical;
 }
 
