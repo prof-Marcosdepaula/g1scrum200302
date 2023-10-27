@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Entre em contato</title>
+    <link rel="stylesheet" href="/Main/style.css">
+    <title>Entre em Contato</title>
 </head>
+
 <body>
+    <!--Google -Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel='stylesheet'
+        type='text/css'>
 
-<!--Google -Fonts-->
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel='stylesheet'
-type='text/css'>
-
-<!--Font-awsome-->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <!--Font-awsome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <div class="container">
 
@@ -24,7 +23,7 @@ type='text/css'>
             <nav class="xs-menu displaynone">
                 <ul>
                     <li class="active">
-                        <a href="./index.html" target="_self">Inicio</a>
+                        <a href="/Main/index.html">Inicio</a>
                     </li>
                     <li>
                         <a href="#">Pacotes</a>
@@ -42,7 +41,7 @@ type='text/css'>
                         <a href="#">Sobre Nós</a>
                     </li>
                     <li>
-                        <a href="#">Entre em Contato</a>
+                        <a href="/Main/contato.html">Entre em Contato</a>
                     </li>
 
                 </ul>
@@ -51,7 +50,7 @@ type='text/css'>
         <nav class="menu">
             <ul>
                 <li class="active">
-                    <a href="#">Inicio</a>
+                    <a href="/Main/index.html">Inicio</a>
 
                 </li>
                 <li class="drop-down">
@@ -86,14 +85,13 @@ type='text/css'>
 
                 </li>
                 <li style="float:right;">
-                    <a href="#">Entre em Contato</a>
+                    <a href="/Main/contato.html">Entre em Contato</a>
                 </li>
 
             </ul>
         </nav>
 
-
-    <div class="container">
+    <div class="contact">
         <div class="inputs">
             <form>
                 <label for="fnome">Nome: </label>
@@ -139,5 +137,18 @@ type='text/css'>
             </form>
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/Main/main.js"></script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+        showSlidesAuto();
+    </script>
+
+
 </body>
+
+
 </html>
