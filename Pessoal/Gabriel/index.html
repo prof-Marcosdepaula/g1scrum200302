@@ -4,11 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Entre em contato</title>
+    <link rel="stylesheet" href="/Main/style.css">
+    <title>Entre em Contato</title>
 </head>
+
 <body>
+    <!--Google -Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel='stylesheet'
+        type='text/css'>
+
+    <!--Font-awsome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
     <div class="container">
+        <nav class="menu">
+            <ul>
+                <li class="active">
+                    <a href="index.html">Inicio</a>
+
+                </li>
+                <li class="drop-down">
+                    <a href="#">Pacotes</a>
+
+                    <div class="mega-menu fadeIn animated">
+                        <div class="mm-6column">
+                            <span class="left-images">
+                            </span>
+                            <span class="categories-list">
+                                <ul>
+                                    <span></span>
+                                    <li style="cursor: pointer;">Básico</li>
+                                    <li style="cursor: pointer;">Familía</li>
+                                    <li style="cursor: pointer;">Passeio</li>
+                                    <li style="cursor: pointer;">Premium</li>
+                                    <li style="cursor: pointer;"><a class="mm-view-more" href="#">View more →</a></li>
+                                </ul>
+                            </span>
+                <li>
+                    <a href="#">Passeios</a>
+                </li>
+                <li>
+                    <a href="#">Chalés</a>
+                </li>
+                <li>
+                    <a href="#">Shows</a>
+
+                </li>
+                <li>
+                    <a href="#">Sobre Nós</a>
+
+                </li>
+                <li style="float:right;">
+                    <a href="/Main/contato.html">Entre em Contato</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    <div class="contact">
         <div class="inputs">
             <form>
                 <label for="fnome">Nome: </label>
@@ -54,5 +107,18 @@
             </form>
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/Main/main.js"></script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+        showSlidesAuto();
+    </script>
+
+
 </body>
+
+
 </html>
