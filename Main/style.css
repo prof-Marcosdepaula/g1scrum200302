@@ -671,13 +671,13 @@ body {
 
 /* Inicio seção Entre em Contato */
 body {
-  background-image: url("https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/EntreEmContato.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
 }
 
 div.contact{
+  background-image: url("https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/EntreEmContato.png");
   width: 100%;
   margin: 5px;
   padding: 20px;
