@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Main/style.css">
+    <title>Entre em Contato</title>
+</head>
+
+<body>
+    <!--Google -Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel='stylesheet'
+        type='text/css'>
+
+    <!--Font-awsome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <div class="container">
+
+        <div class="xs-menu-cont">
+            <a id="menutoggle"><i class="fa fa-align-justify"></i> </a>
+            <nav class="xs-menu displaynone">
+                <ul>
+                    <li class="active">
+                        <a href="/Main/index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Pacotes</a>
+                    </li>
+                    <li>
+                        <a href="#">Passeios</a>
+                    </li>
+                    <li>
+                        <a href="#">Chalés</a>
+                    </li>
+                    <li>
+                        <a href="#">Shows</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="/Main/contato.html">Entre em Contato</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="active">
+                    <a href="/Main/index.html">Inicio</a>
+
+                </li>
+                <li class="drop-down">
+                    <a href="#">Pacotes</a>
+
+                    <div class="mega-menu fadeIn animated">
+                        <div class="mm-6column">
+                            <span class="left-images">
+                            </span>
+                            <span class="categories-list">
+                                <ul>
+                                    <span></span>
+                                    <li style="cursor: pointer;">Básico</li>
+                                    <li style="cursor: pointer;">Familía</li>
+                                    <li style="cursor: pointer;">Passeio</li>
+                                    <li style="cursor: pointer;">Premium</li>
+                                    <li style="cursor: pointer;"><a class="mm-view-more" href="#">View more →</a></li>
+                                </ul>
+                            </span>
+                <li>
+                    <a href="#">Passeios</a>
+                </li>
+                <li>
+                    <a href="#">Chalés</a>
+                </li>
+                <li>
+                    <a href="#">Shows</a>
+
+                </li>
+                <li>
+                    <a href="#">Sobre Nós</a>
+
+                </li>
+                <li style="float:right;">
+                    <a href="/Main/contato.html">Entre em Contato</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    <div class="contact">
+        <div class="inputs">
+            <form>
+                <label for="fnome">Nome: </label>
+                <input type="text" name="nome" id="fnome" placeholder="Digite o seu nome...">
+                <label for="femail">Email: </label>
+                <input type="email" name="email" id="femail" placeholder="Digite o seu email...">
+                <label for="fcidade">Cidade: </label>
+                <input type="text" name="cidade" id="fcidade" placeholder="Digite a sua cidade...">
+                <label for="uf">Estado</label>
+                    <select name="estado" id="uf">
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                <label for="fmsg">Observações</label>
+                <textarea name="fmsg" id="fmsg" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
+                <button class="fbtn1" onclick="enviarDadosContato()">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/Main/main.js"></script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+        showSlidesAuto();
+    </script>
+
+
+</body>
+
+
+</html>
