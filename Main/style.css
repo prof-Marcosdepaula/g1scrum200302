@@ -723,3 +723,78 @@ textarea{
 }
 
 /* Fim da Seção Entre em Contato */
+
+/* Início Seção Fale com um vendedor */
+
+#contato-vendedor {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(./imagens/fundo-destaque.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header-vendedor{
+  font-size: 40px;
+  margin-bottom: 30px;
+  background-color: #f9af3a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#form-contato-vendedor {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  margin: 5px 0 8px 20px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #f9af3a;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer; 
+  margin-bottom: 95px;
+}
+#map{
+  background-image: url(./imagens/fundo-destaque\ -\ areia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(64, 165, 64);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #f9af3a;
+}
+
+
+/* Fim Seção Fale com um vendedor */
