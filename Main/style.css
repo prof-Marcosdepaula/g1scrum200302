@@ -38,7 +38,7 @@ color: cornsilk;
 }
 
 .backgroundfundo{
-  background-image: url("./imagens/logotipo_certo.png");
+  background-image: url("https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/logotipo_certo.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1300px;
@@ -679,8 +679,7 @@ body {
 div.contact{
   background-image: url("https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/EntreEmContato.png");
   width: 100%;
-  margin: 5px;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
 }
 
@@ -738,7 +737,7 @@ textarea{
   height: 700px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/fundo-destaque.jpg);
+  background-image: url("https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/fundo-destaque.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -788,7 +787,7 @@ input[type="submit"] {
   margin-bottom: 95px;
 }
 #map{
-  background-image: url(./imagens/fundo-destaque\ -\ areia.jpg);
+  background-image: url("https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/fundo-destaque%20-%20areia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -805,3 +804,32 @@ footer {
 
 
 /* Fim Seção Fale com um vendedor */
+
+/* Sessão redes sociais */ 
+
+.social-menu {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+.social-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color:black; /* Cor de fundo dos ícones */
+  color: #fff; /* Cor do ícone */
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #e97100; /* Cor de fundo dos ícones no hover */
+
+}
