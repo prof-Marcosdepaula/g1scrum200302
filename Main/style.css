@@ -738,7 +738,7 @@ textarea{
   height: 700px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url(./imagens/fundo-destaque.jpg);
+  background-image: url(https://raw.githubusercontent.com/prof-Marcosdepaula/g1scrum200302/main/Main/imagens/fundo-destaque.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
